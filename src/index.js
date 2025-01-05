@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import './Component/Main.js';
+import './Component/jquery.js';
+
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.Fragment>
+    <App />
+  </React.Fragment>
+);
+
+
+reportWebVitals();
